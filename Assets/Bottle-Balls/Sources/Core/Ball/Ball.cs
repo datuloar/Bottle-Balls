@@ -6,7 +6,6 @@ public class Ball : MonoBehaviour, IBall
     [SerializeField] private MeshRenderer _meshRenderer;
 
     public Color Color => _color;
-    public bool CanMultiple { get; set; } = true;
 
     private void OnValidate()
     {
